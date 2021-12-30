@@ -1,0 +1,81 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@IDo4a 
+bitnami
+/
+charts
+Public
+Code
+Issues
+338
+Pull requests
+61
+Actions
+Security
+Insights
+charts/bitnami/wordpress/Chart.yaml
+@bitnami-bot
+bitnami-bot [bitnami/wordpress] Release 12.2.7 updating components versions
+…
+Latest commit e2534ac 14 days ago
+ History
+ 42 contributors
+@bitnami-bot@carrodher@miguelaeh@juan131@javsalgar@migruiz4@chris13524@vikram-bitnami@alemorcuq@pablogalegoc@marcosbc@Mauraza
+38 lines (38 sloc)  945 Bytes
+   
+annotations:
+  category: CMS
+apiVersion: v2
+appVersion: 5.8.2
+dependencies:
+  - condition: mariadb.enabled
+    name: mariadb
+    repository: https://charts.bitnami.com/bitnami
+    version: 9.x.x
+  - condition: memcached.enabled
+    name: memcached
+    repository: https://charts.bitnami.com/bitnami
+    version: 5.x.x
+  - name: common
+    repository: https://charts.bitnami.com/bitnami
+    tags:
+      - bitnami-common
+    version: 1.x.x
+description: Web publishing platform for building blogs and websites.
+engine: gotpl
+home: https://github.com/bitnami/charts/tree/master/bitnami/wordpress
+icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+keywords:
+  - application
+  - blog
+  - cms
+  - http
+  - php
+  - web
+  - wordpress
+maintainers:
+  - email: containers@bitnami.com
+    name: Bitnami
+name: wordpress
+sources:
+  - https://github.com/bitnami/bitnami-docker-wordpress
+  - https://wordpress.org/
+version: 12.2.7
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
