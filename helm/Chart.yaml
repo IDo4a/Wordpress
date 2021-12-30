@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@IDo4a 
-bitnami
-/
-charts
-Public
-Code
-Issues
-338
-Pull requests
-61
-Actions
-Security
-Insights
-charts/bitnami/wordpress/Chart.yaml
-@bitnami-bot
-bitnami-bot [bitnami/wordpress] Release 12.2.7 updating components versions
-…
-Latest commit e2534ac 14 days ago
- History
- 42 contributors
-@bitnami-bot@carrodher@miguelaeh@juan131@javsalgar@migruiz4@chris13524@vikram-bitnami@alemorcuq@pablogalegoc@marcosbc@Mauraza
-38 lines (38 sloc)  945 Bytes
-   
 annotations:
   category: CMS
 apiVersion: v2
@@ -66,16 +36,3 @@ sources:
   - https://github.com/bitnami/bitnami-docker-wordpress
   - https://wordpress.org/
 version: 12.2.7
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
